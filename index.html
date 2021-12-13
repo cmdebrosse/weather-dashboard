@@ -12,22 +12,22 @@
 <body>
 
     <header class="hero">
-        <h1 class="bg-primary text-white text-center">Weather Dashboard</h1>
+        <h1 class="bg-primary text-white text-center p-3">Weather Dashboard</h1>
     </header>
 
 <main>
     <section class="p-3" id="city-search">
         <h2>Search for a City:</h2>
-        <input type="text" class="form-input" id="search-name" placeholder="Columbus">
-        <button type="submit" class="btn btn-primary" id="search-button">Search</button>
-        <li class="list-group" id="previous-searches"></li>
+            <input type="text" class="form-input" id="search-name" placeholder="Search city here">
+            <button type="submit" class="btn btn-primary" id="search-button">Search</button>
+            <li class="list-group" id="previous-searches"></li>
     </section>
 
     <section class="p-3" id="current-search">
         <div class="bg-primary card">
             <div class="card-body">
                 <h2 class="card-title d-flex align-items-center lead font-weight-bold text-light">
-                    <span id="city-name">Name of City</span>
+                    <span id="cityName">Name of City</span>
                     <span class="px-5" id="todays-date">MM/DD/YY</span>
                 </h2>
                     <p class="card-text text-light">Temperature: <span id="current-temp"></span></p>
