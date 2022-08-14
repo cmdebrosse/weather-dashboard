@@ -5,7 +5,7 @@ This application allows users to search cities and receive current weather infor
 
 ## Features
 * HTML
-* CSS
+* CSS & Bootstrap
 * JavaScript
 
 ## APIs 
@@ -13,6 +13,7 @@ This application allows users to search cities and receive current weather infor
 
 ## Links
 Repo: https://github.com/cmdebrosse/weather-dashboard
+
 Page: https://cmdebrosse.github.io/weather-dashboard/
 
 ## Screenshot
